@@ -16,7 +16,9 @@ def run_quiz():
             print("✓ Correct!")
             score += 1
         else:
-            print(f"✗ Wrong! The correct answer was: {q['answer']}")
+            correct_text = q['options'][q['answer'] - 1]
+            print("✗ Wrong!")
+            print(f"  Correct answer: {correct_text}")
 
     print()
     print("========================")

@@ -18,7 +18,7 @@ def main():
             run_quiz()
         elif choice == "2":
             print()
-            print("Goodbye! See you 2next time.")
+            print("Goodbye! See you next time.")
             break
         else:
             print("Invalid choice. Please enter 1 or 2.")
