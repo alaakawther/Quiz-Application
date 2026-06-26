@@ -1,16 +1,23 @@
+import random
 from questions import questions
-
-def run_quiz():
+from scores import save_score
+from utils import get_valid_answer    
+def run_quiz(player_name):
     score = 0
 
-    for i, q in enumerate(questions):
+    shuffled_questions = questions.copy()
+    random.shuffle(shuffled_questions)
+
+    print(f"\nGood luck, {player_name}! Here we go...\n")
+
+    for i, q in enumerate(shuffled_questions):
         print()
         print(f"Question {i + 1}: {q['question']}")
         print(f"  1. {q['options'][0]}")
         print(f"  2. {q['options'][1]}")
         print(f"  3. {q['options'][2]}")
 
-        answer = input("Your answer (1, 2 or 3): ")
+        answer = get_valid_answer(3)
 
         if answer == str(q['answer']):
             print("✓ Correct!")
@@ -20,8 +27,14 @@ def run_quiz():
             print("✗ Wrong!")
             print(f"  Correct answer: {correct_text}")
 
+    total = len(shuffled_questions)
+
     print()
     print("========================")
-    print(f"  Quiz finished!")
-    print(f"  Your score: {score} / {len(questions)}")
+    print("  Quiz finished!")
+    print(f"  Your score: {score} / {total}")
     print("========================")
+
+    save_score(player_name, score, total)
+
+    return score, total
