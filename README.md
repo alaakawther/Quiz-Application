@@ -1,6 +1,6 @@
 # 🧠 Quiz Application
 
-A Python console quiz app built as a first project.
+A Python console quiz app — built step by step as a learning project.
 
 ## How to Run
 
@@ -11,18 +11,29 @@ python main.py
 ## How to Play
 
 1. Run the program
-2. Choose **1** to start the quiz
-3. Answer each question by typing 1, 2, or 3
-4. See your final score at the end
-5. Choose **2** to exit
+2. Enter your name
+3. Choose **1** to start the quiz
+4. Answer each question by typing 1, 2, or 3
+5. See your final score at the end
+6. Choose **2** to view score history
+7. Choose **3** to exit
+
+## Features
+
+- 10 multiple choice Python questions
+- Questions appear in random order every time
+- Input validation — no crashes on wrong input
+- Score history saved to `scores.txt` with date and time
 
 ## Project Structure
 
 | File | Purpose |
 |------|---------|
-| `questions.py` | Stores all quiz questions |
-| `quiz.py` | Quiz logic and scoring |
 | `main.py` | Menu and app entry point |
+| `quiz.py` | Quiz logic and scoring |
+| `questions.py` | All quiz questions |
+| `scores.py` | Save and display score history |
+| `utils.py` | Reusable helper functions |
 
 ## Built With
 
