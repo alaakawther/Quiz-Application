@@ -113,6 +113,6 @@ No external libraries needed — uses Python's standard library only.
 
 **Alaa Kawther** — Second Year Computer Science Student
 
-Built over 3 days, step by step, after completing my Python certification.
+Built over 3 days, step by step.
 
 All commits tracked on GitHub to show the full build process.
