@@ -1,52 +1,102 @@
 questions = [
     {
-        "question": "What is Python?",
-        "options": ["A programming language", "A database", "An operating system"],
+        "question": "She __ to the gym every morning before work.",
+        "options": ["go", "goes", "going"],
+        "answer": 2
+    },
+    {
+        "question": "By the time the movie started, we __ our popcorn.",
+        "options": ["already ate", "have already eaten", "had already eaten"],
+        "answer": 3
+    },
+    {
+        "question": "If I __ you, I would take the job offer immediately.",
+        "options": ["was", "am", "were"],
+        "answer": 3
+    },
+    {
+        "question": "The manager requested that everyone __ on time for the meeting.",
+        "options": ["be", "is", "will be"],
         "answer": 1
     },
     {
-        "question": "What symbol is used for comments in Python?",
-        "options": ["//", "#", "/*"],
+        "question": "Rarely __ such a beautiful piece of artwork.",
+        "options": ["I have seen", "have I seen", "saw I"],
         "answer": 2
     },
     {
-        "question": "Which of these is a Python data type?",
-        "options": ["int", "number", "integer"],
+        "question": "I look forward to __ from you soon.",
+        "options": ["hear", "hearing", "heard"],
+        "answer": 2
+    },
+    {
+        "question": "Despite __ hard, he did not pass the driving test.",
+        "options": ["studying", "he studied", "study"],
         "answer": 1
     },
     {
-        "question": "What does print() do in Python?",
-        "options": ["Saves a file", "Displays text on screen", "Deletes a variable"],
+        "question": "Neither the teacher nor the students __ present at the ceremony.",
+        "options": ["was", "were", "is"],
         "answer": 2
     },
     {
-        "question": "What is the correct way to create a list in Python?",
-        "options": ["list = (1, 2, 3)", "list = {1, 2, 3}", "list = [1, 2, 3]"],
+        "question": "The car __ by the mechanic before we went on the road trip.",
+        "options": ["repaired", "was repairing", "was repaired"],
         "answer": 3
     },
     {
-        "question": "What does len() return?",
-        "options": ["The sum of items", "The length of something", "The last item"],
+        "question": "I would rather you __ anyone about our conversation yesterday.",
+        "options": ["didn't tell", "don't tell", "hadn't told"],
+        "answer": 1
+    },
+    {
+        "question": "She has been working here __ five years.",
+        "options": ["since", "for", "during"],
         "answer": 2
     },
     {
-        "question": "Which keyword defines a function in Python?",
-        "options": ["function", "def", "define"],
-        "answer": 2
+        "question": "He speaks English fluently, __?",
+        "options": ["doesn't he", "isn't he", "won't he"],
+        "answer": 1
     },
     {
-        "question": "What is the result of 2 ** 3 in Python?",
-        "options": ["6", "9", "8"],
+        "question": "I wish I __ more time to travel when I was younger.",
+        "options": ["have", "had", "had had"],
         "answer": 3
     },
     {
-        "question": "Which keyword is used to create a loop?",
-        "options": ["repeat", "loop", "for"],
+        "question": "The information provided by the agents __ extremely helpful.",
+        "options": ["was", "were", "are"],
+        "answer": 1
+    },
+    {
+        "question": "Hardly __ entered the room when the phone rang.",
+        "options": ["than", "when", "then"],
+        "answer": 1
+    },
+    {
+        "question": "She recommended __ the museum early in the morning.",
+        "options": ["to visit", "visiting", "visit"],
+        "answer": 2
+    },
+    {
+        "question": "He is old enough to know better, __ he still makes silly mistakes.",
+        "options": ["although", "despite", "yet"],
         "answer": 3
     },
     {
-        "question": "What does 'if' do in Python?",
-        "options": ["Loops through items", "Checks a condition", "Defines a variable"],
+        "question": "If it __ tomorrow, we will have to cancel the picnic.",
+        "options": ["rains", "will rain", "rained"],
+        "answer": 1
+    },
+    {
+        "question": "They decided to postpone the event __ the bad weather.",
+        "options": ["because", "due to", "as a result"],
         "answer": 2
-    }
+    },
+    {
+        "question": "No sooner had she arrived __ the power cut out.",
+        "options": ["than", "when", "that"],
+        "answer": 1
+    },
 ]
